@@ -1,0 +1,42 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: grey;
+}
+.header{
+    display: flex;
+    background-color: maroon;
+    color: white;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 250;
+}
+.tasks{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin: 20px;
+    gap: 30px;
+    width: 40%;
+}
+.displaytodos{
+background-color: white;
+padding: 15px;
+border-radius: 10px;
+}
+.complete{
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+.incomplete{
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
